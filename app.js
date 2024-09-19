@@ -40,7 +40,7 @@ app.use(cookieParser());
 app.use(helmet());
 
 const corsOptions = {
-  origin: '*', // Allow access to every domain
+  origin: 'https://natours-app1.netlify.app', // Allow access to every domain
   credentials: true, // Allow credentials (cookies) to be sent
 };
 
