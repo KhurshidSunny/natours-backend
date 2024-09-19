@@ -40,7 +40,7 @@ app.use(cookieParser());
 app.use(helmet());
 
 const corsOptions = {
-  origin: 'http://localhost:5173', // Replace with your frontend origin
+  origin: '*', // Allow access to every domain
   credentials: true, // Allow credentials (cookies) to be sent
 };
 
